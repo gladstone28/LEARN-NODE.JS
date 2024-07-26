@@ -43,33 +43,33 @@ Checkpoint 1 Passed
 1. We wrote a program where a Dog can fight a Cat, but it doesn’t work yet because we haven’t properly connected our code. We created two modules: cat.js, which contains our Cat class, and dog.js, which contains our Dog class. But we need to assign these modules to their module.exports. Let’s start with cat.js. Inside cat.js assign the Cat class as the value of module.exports.
 
 There are a couple ways to do this. For example, your cat.js file could look like this:
-
+```
 module.exports = class Cat {
   constructor(name, clawStrength) {
     this.name = name;
     this.clawStrength = clawStrength;
   }
 };
-
+```
 Checkpoint 2 Passed
 2. We’ll also need to export our Dog class. Navigate to dog.js and assign the Dog class as the value of module.exports.
 
 There are a couple ways to do this. For example, your dog.js file could look like this:
-
+```
 module.exports = class Dog {
   constructor(name, toothStrength) {
     this.name = name;
     this.toothStrength = toothStrength;
   }
 };
-
+```
 Checkpoint 3 Passed
 3. Great! Now our Dog and Cat classes are being exported, but we still need to require them into app.js for our function to work properly. At the top of the app.js file, create a variable Dog and assign as its value invoking the require() function with the relative path of the dog.js file. Next, create a Cat variable and assign as its value invoking the require() function with the relative path of the cat.js file.
 
 The top of your app.js file should have these two lines:
-
+```
 let Cat = require('./cat.js');
 let Dog = require('./dog.js');
-
+```
 Checkpoint 4 Passed
 4. Let’s see this program in action! Use the node command to run app.js from the terminal.
