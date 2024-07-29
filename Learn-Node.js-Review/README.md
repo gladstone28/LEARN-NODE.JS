@@ -22,7 +22,7 @@ Awesome work! You’ve learned a lot about Node.js including:
 - Streams allow us to read or write data piece by piece instead of all at once.
 - The Node http core module allows for easy creation of web servers, computer processes that listen for requests from clients and return responses.
 
-Woah, that was a lot… And there’s even more to Node that we didn’t cover in this lesson, but don’t panic! Learning Node isn’t about memorizing every aspect of the environment. The best way to get comfortable with Node is just to practice making things in it. Your imagination is the limit! If you haven’t already, download Node on your local machine. You can start by recreating some of the programs you built in this lesson— put your own spin on a guessing game, for example. If you’re eager to build web application back-ends, we recommend you start learning the awesome Express.js web framework.
+Woah, that was a lot… And there’s even more to Node that we didn’t cover in this lesson, but don’t panic! Learning Node isn’t about memorizing every aspect of the environment. The best way to get comfortable with Node is just to practice making things in it. Your imagination is the limit! If you haven’t already, download Node on your local machine. You can start by recreating some of the programs you built in this lesson— put your own spin on a guessing game, for example. If you’re eager to build web application back-ends, we recommend you start learning the [awesome Express.js](https://www.codecademy.com/enrolled/courses/learn-express) web [framework](https://www.codecademy.com/resources/docs/general/framework).
 
 Great work! We’re excited to see what you build!
 
